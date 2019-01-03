@@ -1,0 +1,41 @@
+{
+  "name": "create-hook",
+  "version": "1.0.0",
+  "description": "Enhance React.useState hook",
+  "source": "src/index.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build":"tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheweichun/create-hook.git"
+  },
+  "keywords": [
+    "React",
+    "hooks",
+    "useState"
+  ],
+  "author": "Lovee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheweichun/create-hook/issues"
+  },
+  "homepage": "https://github.com/sheweichun/create-hook#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "microbundle": "^0.9.0",
+    "react": "^16.7.0-alpha.2",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {}
+}
